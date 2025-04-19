@@ -1,0 +1,35 @@
+/* styles.css */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+nav h1 {
+  margin: 0;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 200px;
+}
+
+.product-card button {
+  margin-top: 10px;
+}
+
+.cart {
+  padding: 20px;
+}
+
+.cart button {
+  margin-top: 20px;
+}
